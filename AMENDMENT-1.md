@@ -1,0 +1,2 @@
+# AMENDMENT-1 (2026-10-09 IST) - pre-outcome, input-format note only
+The repo copy of DMS_substitutions.csv was committed through the GitHub web editor, which normalized CRLF line endings to LF (208734 -> 208519 bytes). The upstream file's md5 (c434631737013fceb56efc98056151e0, the Zenodo record 15293562 file) therefore does not match the repo copy's raw bytes. Parsed with pandas the two files are identical (217 x 46, DataFrame.equals True). The md5 in INPUT_HASHES.md5 is for the upstream bytes. Nothing else changes; gates and thresholds are untouched.
